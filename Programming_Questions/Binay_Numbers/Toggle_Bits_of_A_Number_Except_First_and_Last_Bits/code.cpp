@@ -36,8 +36,8 @@ vector<int>ToggleBits(vector<int>v){
     return v;
 }
 int main() {
-	int n;
-	cin>>n;
+	int n=10;
+	//cin>>n;
 	cout<< "Before Toggling number: "<< n<<endl;
 	vector<int>v=BinaryRepresentation(n);
 	vector<int>t=ToggleBits(v);

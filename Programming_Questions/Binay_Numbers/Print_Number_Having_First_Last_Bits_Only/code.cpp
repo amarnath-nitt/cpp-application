@@ -14,8 +14,8 @@ bool onlyFirstAndLastSet(int n){
     return (((n-1)&(n-2))==0);
 }
 int main() {
-	int n;
-	cin>>n;
+	int n=10;
+	//cin>>n;
 	for(int i=1; i<=n; i++){
 	    if(onlyFirstAndLastSet(i)){
 	        cout<< i<< " ";
@@ -24,5 +24,6 @@ int main() {
 	        continue;
 	    }
 	}
+	cout<< endl;
 	return 0;
 }
