@@ -61,5 +61,6 @@ int main(){
 	mergeSort(arr,0,n-1);
 	cout<< "Array after sorting: "<<endl;
 	printArray(arr,n);
+  cout<< "Thank You!!"<<endl;
 	return 0;
 }
