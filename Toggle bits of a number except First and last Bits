@@ -38,10 +38,10 @@ vector<int>ToggleBits(vector<int>v){
 int main() {
 	int n;
 	cin>>n;
-	cout<< "Before Toggling: "<< n<<endl;
+	cout<< "Before Toggling number: "<< n<<endl;
 	vector<int>v=BinaryRepresentation(n);
 	vector<int>t=ToggleBits(v);
 	int N = BinaryToDecimal(t);
-	cout<< "After Toggling: "<< N<<endl;
+	cout<< "After Toggling number: "<< N<<endl;
 	return 0;
 }
