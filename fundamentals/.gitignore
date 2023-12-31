@@ -1,0 +1,23 @@
+*.exe
+.vscode/
+.vscode
+
+# C++ Fundamentals
+# |-- Basics
+# |-- Control Flow
+# |-- Functions
+# |-- Arrays and Strings
+# |-- Pointers
+# |-- OOP
+# |-- STL
+# |-- Practice
+# |   |-- Easy
+# |   |-- Medium
+# |   |-- Hard
+# |-- Projects
+# |   |-- Project1
+# |   |-- Project2
+# |-- Resources
+# |-- Documentation
+# |-- Tools
+# |-- Miscellaneous
